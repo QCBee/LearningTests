@@ -1,0 +1,26 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test Suite" parallel="classes" thread-count="2">
+<!--    <parameter name="browserName" value="Chrome"/>-->
+    <test name="Learning TestNG">
+        <classes>
+            <!--            <class name="login_tests.ResetLoginTest"/>-->
+            <class name="OneEqualsOne"/>
+            <class name="OneEqualsZero"/>
+        </classes>
+    </test>
+    <!--    <test name="CreateTicketTest">-->
+    <!--        <classes>-->
+    <!--            <class name="CreateIssueTest"/>-->
+    <!--        </classes>-->
+    <!--    </test>-->
+    <!--    <test name="TicketTest">-->
+    <!--        <classes>-->
+    <!--            <class name="TicketTest"/>-->
+    <!--        </classes>-->
+    <!--    </test>-->
+
+    <listeners>
+        <listener class-name="utils.TestNJListener"/>
+    </listeners>
+
+</suite>
