@@ -4,20 +4,11 @@
     <test name="Learning TestNG">
         <classes>
             <!--            <class name="login_tests.ResetLoginTest"/>-->
-            <class name="OneEqualsOne"/>
-            <class name="OneEqualsZero"/>
+            <class name="listeners_work.OneEqualsOne"/>
+            <class name="listeners_work.OneEqualsZero"/>
         </classes>
     </test>
-    <!--    <test name="CreateTicketTest">-->
-    <!--        <classes>-->
-    <!--            <class name="CreateIssueTest"/>-->
-    <!--        </classes>-->
-    <!--    </test>-->
-    <!--    <test name="TicketTest">-->
-    <!--        <classes>-->
-    <!--            <class name="TicketTest"/>-->
-    <!--        </classes>-->
-    <!--    </test>-->
+
 
     <listeners>
         <listener class-name="utils.TestNJListener"/>
